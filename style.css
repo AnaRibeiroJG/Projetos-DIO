@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Notch:wght@200..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #13131f;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Stack Sans Notch', sans-serif;
+    scrollbar-width: thin;
+    scrollbar-color: #8257e6 #13131f;
+}
+
+.dio {
+    color: #8257e6;
+    font-weight: bold;
+}
+
+header {
+    background-color: #8257e6;
+    padding: 2px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 45px;    
+}
+
+.gif {
+    display: block;
+    margin: 15px auto;
+}
+
+.apresenta {
+    text-align: center;
+    margin: 50px auto;
+    font-size: 20px;
+    max-width: 700px;
+}
+
+.linha {
+    width: 50%;
+    height: 2.5px;
+    background-color: #8257e6;
+    border: none;
+    margin:50px auto; 
+}
+
+i   {
+    color: #8257e6;
+    font-weight: bold;
+}
+
+.conteudo   {
+    font-weight: 500;
+}
+
+.social-icons {
+    margin-bottom: 15px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    font-size: 39px;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 0;
+    margin: 0px auto;
+    font-size: 18px;
+}
+
+.assinatura {
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+    font-size: 14px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    transition: color 0.7s ease-in-out;
+    z-index: 1000;
+}
+
+.assinatura:hover {
+    color: #8257e6;
+}
+
+.assinatura p {
+    color: inherit;
+}
